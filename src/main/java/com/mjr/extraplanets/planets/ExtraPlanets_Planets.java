@@ -173,7 +173,7 @@ public class ExtraPlanets_Planets {
 		}
 		if (Config.SATURN) {
 			SATURN = new Planet(Config.GALAXY_SPACE_COMPATIBILITY ? "SaturnEP" : "Saturn").setParentSolarSystem(GalacticraftCore.solarSystemSol);
-			SATURN.setTierRequired(5);
+			SATURN.setTierRequired(4);
 			SATURN.setRingColorRGB(0.1F, 0.9F, 0.6F);
 			SATURN.setPhaseShift(5.45F);
 			SATURN.setRelativeDistanceFromCenter(new CelestialBody.ScalableDistance(2.00F + Config.SATURN_DISTANCE_OFFSET, 2.00F + Config.SATURN_DISTANCE_OFFSET));
@@ -192,7 +192,7 @@ public class ExtraPlanets_Planets {
 		}
 		if (Config.URANUS) {
 			URANUS = new Planet(Config.GALAXY_SPACE_COMPATIBILITY ? "UranusEP" : "Uranus").setParentSolarSystem(GalacticraftCore.solarSystemSol);
-			URANUS.setTierRequired(6);
+			URANUS.setTierRequired(5);
 			URANUS.setRingColorRGB(0.1F, 0.9F, 0.6F);
 			URANUS.setPhaseShift(1.38F);
 			URANUS.setRelativeDistanceFromCenter(new CelestialBody.ScalableDistance(2.25F + Config.URANUS_DISTANCE_OFFSET, 2.25F + Config.URANUS_DISTANCE_OFFSET));
@@ -211,7 +211,7 @@ public class ExtraPlanets_Planets {
 		}
 		if (Config.NEPTUNE) {
 			NEPTUNE = new Planet(Config.GALAXY_SPACE_COMPATIBILITY ? "NeptuneEP" : "Neptune").setParentSolarSystem(GalacticraftCore.solarSystemSol);
-			NEPTUNE.setTierRequired(7);
+			NEPTUNE.setTierRequired(5);
 			NEPTUNE.setRingColorRGB(0.1F, 0.9F, 0.6F);
 			NEPTUNE.setPhaseShift(Config.GALAXY_SPACE_COMPATIBILITY ? 8 : 1.0F);
 			NEPTUNE.setRelativeDistanceFromCenter(new CelestialBody.ScalableDistance(2.50F + Config.NEPTUNE_DISTANCE_OFFSET, 2.50F + Config.NEPTUNE_DISTANCE_OFFSET));
@@ -230,7 +230,7 @@ public class ExtraPlanets_Planets {
 		}
 		if (Config.PLUTO) {
 			PLUTO = new Planet(Config.GALAXY_SPACE_COMPATIBILITY ? "PlutoEP" : "Pluto").setParentSolarSystem(GalacticraftCore.solarSystemSol);
-			PLUTO.setTierRequired(8);
+			PLUTO.setTierRequired(6);
 			PLUTO.setRingColorRGB(0.1F, 0.9F, 0.6F);
 			PLUTO.setPhaseShift(Config.GALAXY_SPACE_COMPATIBILITY ? 0 : 2.0F);
 			PLUTO.setRelativeDistanceFromCenter(new CelestialBody.ScalableDistance(2.75F + Config.PLUTO_DISTANCE_OFFSET, 2.75F + Config.PLUTO_DISTANCE_OFFSET));
@@ -249,7 +249,7 @@ public class ExtraPlanets_Planets {
 		}
 		if (Config.ERIS) {
 			ERIS = new Planet("Eris").setParentSolarSystem(GalacticraftCore.solarSystemSol);
-			ERIS.setTierRequired(9);
+			ERIS.setTierRequired(6);
 			ERIS.setRingColorRGB(0.1F, 0.9F, 0.6F);
 			ERIS.setPhaseShift(1.0F);
 			ERIS.setRelativeDistanceFromCenter(new CelestialBody.ScalableDistance(3.75F + Config.ERIS_DISTANCE_OFFSET, 3.75F + Config.ERIS_DISTANCE_OFFSET));
@@ -268,7 +268,7 @@ public class ExtraPlanets_Planets {
 		}
 		if (Config.KEPLER22B && Config.KEPLER_SOLAR_SYSTEMS) {
 			KEPLER22B = new Planet("kepler22b").setParentSolarSystem(ExtraPlanets_SolarSystems.kepler22);
-			KEPLER22B.setTierRequired(10);
+			KEPLER22B.setTierRequired(6);
 			KEPLER22B.setRingColorRGB(0.1F, 0.9F, 0.6F);
 			KEPLER22B.setPhaseShift(1.45F);
 			KEPLER22B.setRelativeDistanceFromCenter(new CelestialBody.ScalableDistance(0.5F, 0.5F));
